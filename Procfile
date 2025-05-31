@@ -1,0 +1,1 @@
+worker : taze:app gunicorn
