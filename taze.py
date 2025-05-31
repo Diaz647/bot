@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 # --- Ortam Değişkenleri ve Sabitler ---
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "7877979174"))
 BOT_TOKEN = os.environ.get("8128882254:AAEZ_6OicThy8hlo-k4JShBlsatOyqzRhBY") # Default "YOUR_BOT_TOKEN" kaldırıldı, setup kontrol edecek
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL") # Örn: "https://your-app-name.render.com"
+WEBHOOK_URL = os.environ.get("https://bot-hdrt.onrender.com") # Örn: "https://your-app-name.render.com"
 
 USERS_FILE = "users.json"
 TEST_CODES_FILE = "test_codes.txt"
