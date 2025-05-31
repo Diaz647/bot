@@ -19,8 +19,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-ADMIN_ID = admin id
-BOT_TOKEN = "7856912713:AAHs1OQ4N5bQ-qCEdBhd_wl-mfOBEGCW66U"
+ADMIN_ID = 7877979174
+BOT_TOKEN = "8128882254:AAEZ_6OicThy8hlo-k4JShBlsatOyqzRhBY"
 USERS_FILE = "users.json"
 TEST_CODES_FILE = "test_codes.txt"
 PROMO_FILE = "promocodes.json"
