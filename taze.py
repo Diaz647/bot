@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger(__name__) # DÜZELTİLDİ: name -> __name__
 
 # --- Yapılandırma ---
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") or '8128882254:AAEZ_6OicThy8hlo-k4JShBlsatOyqzRhBY' # Token'ınızı buraya girin
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") or '7729428395:AAEVdRCIWy8QkADFliXyee5GXQH2qz_ESKM' # Token'ınızı buraya girin
 bot = telebot.TeleBot(TOKEN, parse_mode=None) # parse_mode'u daha sonra özel olarak ayarlayacağız
 
 # Webhook ayarları (Render.com için)
